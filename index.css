@@ -1,0 +1,167 @@
+.background{
+  z-index:-4;
+  
+}
+
+body{
+  margin: 0;
+  background-image: url(sharadesert.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+}
+
+.flexbox{
+  display: flex;
+  margin-left: auto;
+}
+nav{
+z-index:1;
+width: 100%;
+height: 50px;
+/* position: relative; */
+/* top: -695px; */
+}
+
+.nav-items-list{
+  margin-top: 3vh;
+}
+
+.nav-items-list li{
+  text-decoration: none;
+  display: inline-block;
+  float:right;
+  margin-left: 50px;
+  color: white;
+}
+
+ul{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.first{
+  margin-right: 50px;
+}
+#logo{
+  width:4vw;
+  height: 6vh;
+  margin-left: 50px;
+  border-radius: 15px;
+  background-color:rgba(252, 139, 74, 0.795);
+}
+
+.middle-section{
+  width: 100%;
+  height: 75vh;
+  z-index: 1;
+  /* position: relative; */
+  /* top: -662px; */
+}
+
+.grid-box{
+  display: inline-grid;
+  gap: 20px;
+  grid-template-columns: 280px 280px;
+  grid-template-rows: 255px 255px;
+  float: right;
+  margin-right: 100px;
+}
+.grid-item img{
+  border-radius: 15px;
+}
+
+.description{
+  margin: 89px 0 0 251px;
+  display: inline-block;
+  width: 31vw;
+  height: 37vh;
+}
+.imges{
+  width:16vw;
+  height:35vh;
+}
+.background-img{
+  width:100vw;
+  height: 100vh;
+}
+
+p{
+  color: white;
+}
+
+.h1{
+  color: white;
+  font-size: 5vw;
+
+}
+
+.btn{
+  width: 12vw;
+  height: 7vh;
+  background-color: white;
+  color: black;
+  border: 2px solid yellow;
+  border-radius: 25px;
+}
+
+.btn p{
+  color: black;
+  text-align: center;
+}
+/* .trns{
+  animation: ;
+}
+
+@keyframes trns:hover{
+  100%{
+    top:-20px;
+  }
+} */
+
+.trns:hover{
+   transform: scaleY(1.1);
+}
+
+@media screen and (max-width: 1025px) {
+
+  .imges{
+    width: 41vw;
+    height:32vh;
+  }
+
+.nav-items-list{
+  margin-top: 15vh;
+}
+.background{
+}
+.middle-section{
+  
+}
+.description{
+  margin: 12vh 10vw;
+  width: 70vw;
+}
+.grid-box{
+  grid-template-rows: 33vh 33vh 33vh 33vh;
+  grid-template-columns:45vw;
+  margin-right: 35vw;
+}
+}
+@media screen and(max-width:553px) {
+
+  .nav-items-list li{
+  
+    margin-left: 1vw;
+  }
+
+  .btn{
+    width: 16vw;
+    height: 10vh;
+  }
+  
+}
